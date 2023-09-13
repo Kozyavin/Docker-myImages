@@ -1,0 +1,7 @@
+version: '1.1'
+services:
+  doc-postgres:
+    build: ./docker
+    image: doc-postgres:1.0
+    ports:
+      - '9999:9999'
